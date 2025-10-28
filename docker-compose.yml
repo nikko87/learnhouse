@@ -58,8 +58,6 @@ services:
       - "8000"
     volumes:
       - chroma-data:/chroma/chroma
-    networks:
-      - dokploy-network
 
 volumes:
   db-data:
